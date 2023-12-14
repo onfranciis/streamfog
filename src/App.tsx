@@ -25,7 +25,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (MediaRecorders && VideoRef.current) {
+    if (VideoRef.current) {
       VideoRef.current.srcObject = MediaRecorders;
     }
   }, [MediaRecorders]);

@@ -1,11 +1,12 @@
 .App {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
   video {
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
     aspect-ratio: 1;
     border-radius: 8px;

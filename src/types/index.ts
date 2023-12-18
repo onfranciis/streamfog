@@ -14,3 +14,10 @@ export interface ICanvasParentProps {
   color: IColors["rgb"];
   imageSrc: string | null;
 }
+
+export type IAvailableWebcam = {
+  deviceId: string;
+  kind: string;
+  label: string;
+  groupId: string;
+};

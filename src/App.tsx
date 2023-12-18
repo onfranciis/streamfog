@@ -1,4 +1,4 @@
-import "./App.scss";
+import "./styles/App.scss";
 import "@tensorflow/tfjs";
 import { ChangeEvent, useEffect, useRef, useState } from "react";
 import { useLogic } from "./utils/logic";

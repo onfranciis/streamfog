@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="385"
+  viewBox="0 0 1000 385">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1,
+      .cls-2,
+      .cls-3,
+      .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="42.969" y1="320.89" x2="529.5" y2="320.89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06683b" />
+      <stop offset="1" stop-color="#99cc3a" />
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="142.906" y1="194.672" x2="947.625" y2="194.672"
+      xlink:href="#linear-gradient" />
+    <linearGradient id="linear-gradient-3" x1="32.469" y1="68.422" x2="810.875" y2="68.422"
+      xlink:href="#linear-gradient" />
+  </defs>
+  <g id="STREAMFOG_logo">
+    <path id="line_3" class="cls-2"
+      d="M67.959,295.915H504.51a24.983,24.983,0,1,1,0,49.966H67.959A24.983,24.983,0,1,1,67.959,295.915Z" />
+    <path id="line_2" class="cls-3"
+      d="M167.893,169.683H922.652a24.984,24.984,0,1,1,0,49.967H167.893A24.984,24.984,0,1,1,167.893,169.683Z" />
+    <path id="line_1" class="cls-4"
+      d="M57.44,43.452H785.9a24.983,24.983,0,1,1,0,49.967H57.44A24.983,24.983,0,0,1,57.44,43.452Z" />
+  </g>
+</svg>

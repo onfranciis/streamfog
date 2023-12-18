@@ -5,8 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  /* background-color: #242424; */
-  background-color: #ffffff;
+  background-color: #25313c;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,10 +22,4 @@
 body {
   min-width: 100dvw;
   min-height: 100dvh;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    background-color: #ffffff;
-  }
 }

@@ -4,11 +4,91 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 100px 5px;
 
-  video {
+  .Top {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #171d21;
+    padding: 20px 10px;
+    box-shadow: 0 0 5px #394855;
+
+    img {
+      width: 200px;
+      height: auto;
+    }
+  }
+
+  .CanvasParent {
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  canvas {
     max-width: 500px;
     width: 100%;
     aspect-ratio: 1;
     border-radius: 8px;
+  }
+
+  video {
+    max-width: 500px;
+    aspect-ratio: 1;
+    border-radius: 8px;
+    display: none;
+  }
+
+  .inputParent {
+    width: fit-content;
+    background-color: #50be3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0 0;
+
+    p {
+      color: white;
+      padding: 5px 10px;
+      z-index: 1;
+    }
+
+    input {
+      height: 100%;
+      flex: 1;
+      opacity: 0;
+      position: absolute;
+      z-index: 2;
+    }
+  }
+
+  .colors {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px 5px;
+
+    .color {
+      all: unset;
+      filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.699));
+      color: white;
+      padding: 5px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: 0.2s scale;
+
+      &:hover {
+        scale: 1.1;
+      }
+    }
   }
 }

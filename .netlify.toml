@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://streamfog.onfranciis.dev/*"
+  to = "https://streamforge.onfranciis.dev/:splat"
+  status = 301
+  force = true

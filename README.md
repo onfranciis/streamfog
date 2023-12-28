@@ -2,7 +2,7 @@
     <img src="./public/logo.svg" />
 </p>
 
-# Streamfog
+# Streamforge
 
 <hr>
 
@@ -35,8 +35,8 @@ This is built using
 
 To install this project locally
 
-- Navigate to your working directory in your terminal and run `git clone https://github.com/onfranciis/streamfog`
-- Navigate to **streamfog** and run
+- Navigate to your working directory in your terminal and run `git clone https://github.com/onfranciis/streamforge`
+- Navigate to **streamforge** and run
 
 ```
 npm run dev
@@ -44,7 +44,7 @@ or
 yarn dev
 ```
 
-- Open [http://localhost:5173](http://localhost:5173) on your browser to see the project. You can also see this project live at [https://streamfog.onfranciis.dev](https://streamfog.onfranciis.dev).
+- Open [http://localhost:5173](http://localhost:5173) on your browser to see the project. You can also see this project live at [https://streamforge.onfranciis.dev](https://streamforge.onfranciis.dev).
 
 <b>:exclamation:PORT 5173 might not be available for you, so check your terminal output to confirm the exposed port.</b>
 
